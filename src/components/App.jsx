@@ -13,6 +13,6 @@ export const App = () => {
                   <h2>Contacts</h2>
                   <Filter/>
                   <ContactList />
-              </div> 
+              </div>
             </section>
 };
