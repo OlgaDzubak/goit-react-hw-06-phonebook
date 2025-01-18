@@ -40,6 +40,7 @@ export const ContactForm = () => {
                     maxLength="25"
                     required
                     placeholder='Name Surname'
+                    autoComplete="on"
                 />
             </label>
 
@@ -51,6 +52,7 @@ export const ContactForm = () => {
                     title="Phone number must be in format [xxx-xxx-xx-xx] or [xxx xxx xx xx]"
                     required
                     placeholder='xxx-xxx-xx-xx'
+                    autoComplete="off"
                 />
             </label>
             
